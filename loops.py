@@ -64,3 +64,6 @@ for friend in friends:
         print(letter)
         for alpha in letter:
             print(alpha)
+
+def newfunc():
+    print("new_function")
