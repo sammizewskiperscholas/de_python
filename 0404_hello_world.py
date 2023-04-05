@@ -78,5 +78,4 @@ cat= testing_scope()
 
 print(help(print))
 
-for= 7
-print(for)
+#I am adding a test comment
