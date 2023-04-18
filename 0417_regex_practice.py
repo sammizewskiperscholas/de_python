@@ -22,3 +22,7 @@ print(re.findall(r"Py.+n", "Python Programmin"))
 print(re.findall(r"o+l+", 'woolly goldfish'))
 
 print(re.findall(r'(\w+) and (\d+)', 'set width=20 and height=10'))
+
+print(re.findall(r"\b[a-zA-Z]{5}\b", "A little scary ghost appeared"))
+
+print(re.sub(r"s*", "friendly", "A little scary ghost appeared"))
